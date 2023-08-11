@@ -57,19 +57,19 @@
 		<legend>파일 다운로드</legend>	
 		<table border="1"> 
 			<tr>
-				<td><img src="" width="70" height="70"></td>
+				<td><img src="chapter09_file\\file_repository\\testImg1.PNG" width="70" height="70"></td>
 				<td>이미지1</td>
-				<td><a href="">다운로드</a></td>
+				<td><a href="download?fileName=testImg1.PNG">다운로드</a></td>
 			</tr>
 			<tr>
-				<td><img src="" width="70" height="70"></td>
+				<td><img src="chapter09_file\\file_repository\\testImg2.png" width="70" height="70"></td>
 				<td>이미지2</td>
-				<td><a href="">다운로드</a></td>
+				<td><a href="download?fileName=testImg2.png">다운로드</a></td>
 			</tr>
 			<tr>
-				<td><img src="" width="70" height="70"></td>
+				<td><img src="chapter09_file\\file_repository\\testImg3.jpg" width="70" height="70"></td>
 				<td>이미지3</td>
-				<td><a href="">다운로드</a></td>
+				<td><a href="download?fileName=testImg3.jpg">다운로드</a></td>
 			</tr>
 		</table>
 	</fieldset>
@@ -86,7 +86,7 @@
 	
 	<hr>
 
-	<form>
+	<form action="update" method="post" enctype="multipart/form-data">
 		<fieldset>
 		<legend>파일 수정</legend>
 		   <p>삭제할 파일명 : <input type="text" name="deleteFileName"></p>
